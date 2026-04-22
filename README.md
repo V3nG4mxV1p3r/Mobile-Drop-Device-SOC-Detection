@@ -11,8 +11,8 @@ This repository showcases the fusion of Mobile Penetration Testing (Red Team), S
 
 ## 🏗️ Laboratory Architecture & Topology
 * **Attacker Unit (Drop Device):** Casper Via S (Android) -> PRoot Debian Container -> Termux via SSH tunnel.
-* **Target System:** Windows 10 Host (IP: 192.168.1.106) running XAMPP Apache Web Server (Port: 8080).
-* **Security Monitoring (SOC):** Wazuh Server on Ubuntu 22.04 (IP: 192.168.1.105) with Wazuh Agent deployed on the Target.
+* **Target System:** Windows 10 Host (IP: 192.168.x.x) running XAMPP Apache Web Server (Port: 8080).
+* **Security Monitoring (SOC):** Wazuh Server on Ubuntu 22.04 (IP: 192.168.x.x) with Wazuh Agent deployed on the Target.
 
 ## ⚔️ Operational Steps
 
@@ -32,7 +32,7 @@ Although Nikto attempted to hide its scanner identity, Wazuh's deep log analysis
 * **Rule ID:** 31166 (Shellshock attack attempt)
 * **CVE:** CVE-2014-6271
 * **MITRE ATT&CK Tactic:** T1190 (Exploit Public-Facing Application)
-* **Source IP:** 192.168.1.108 (The Casper Drop Device)
+* **Source IP:** 192.168.x.x (The Casper Drop Device)
 
 ## 📸 Evidence & Visualization
 
