@@ -36,7 +36,7 @@ Although Nikto attempted to hide its scanner identity, Wazuh's deep log analysis
 
 ## 📸 Evidence & Visualization
 
-### A. SOC Monitoring Overview (The "Cinematic" Shot)
+### A. SOC Monitoring Overview 
 This image perfectly captures the project: The mobile "Drop Device" active in hand, and the SOC Dashboard behind it, showing the real-time detection alerts.
 
 <img width="620" height="522" alt="phonelog2" src="https://github.com/user-attachments/assets/0d2c069e-cf8f-4179-9876-f349ff60bf15" />
